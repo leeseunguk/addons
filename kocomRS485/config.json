@@ -19,10 +19,10 @@
   ],
   "options": {
     "RS485": {
-      "type": "Serial"
+      "type": "Socket"
     },
     "Socket": {
-      "server": "192.168.x.x",
+      "server": "192.168.50.172",
       "port": 8899
     },
     "SocketDevice": {
@@ -36,17 +36,17 @@
     },
     "MQTT": {
       "anonymous": false,
-      "server": "192.168.x.x",
-      "username": "id",
-      "password": "pw"
+      "server": "192.168.50.65",
+      "username": "lsu1080",
+      "password": "kms121303!"
     },
     "Wallpad": {
-      "light": false,
+      "light": true,
       "plug": false,
-      "thermostat": false,
-      "fan": false,
+      "thermostat": true,
+      "fan": true,
       "gas": false,
-      "elevator": false
+      "elevator": true
     },
     "Advanced": {
       "INIT_TEMP": 22,
